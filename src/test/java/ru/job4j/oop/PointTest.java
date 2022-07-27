@@ -1,6 +1,5 @@
 package ru.job4j.oop;
 
-import junit.framework.TestCase;
 import org.junit.Test;
 
 import static org.hamcrest.MatcherAssert.assertThat;
@@ -11,7 +10,7 @@ import static org.hamcrest.Matchers.closeTo;
  * @created 15/06/2022 - 17:50
  * @project job4j
  */
-public class PointTest extends TestCase {
+public class PointTest {
 
     @Test
     public void testDistance3d111to257then7dot874() {
